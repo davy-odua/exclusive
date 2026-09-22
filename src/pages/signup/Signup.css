@@ -1,0 +1,63 @@
+.sign-container{
+    padding: 2rem 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.sign-right{
+    flex-basis: 40%;
+}
+.sign-right img{
+    width: 100%;
+    max-height: 74vh;
+}
+.sign-right{
+    flex-basis: 40%;
+}
+.sign-right img{
+    width: 100%;
+    max-height: 74vh;
+}
+.sign-left{
+    flex-basis: 30%;
+    margin-right: 5rem;
+}
+.form-row{
+    border-bottom: 2px solid black;
+}
+.sign-left input{
+    font-size: 17px;
+    margin-top: 1.3rem;
+}
+.sign-btn{
+    width: 100%;
+    margin-top: 1rem;
+    font-size: 17px;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+#red{
+    background-color: brown;
+    color: #fff;
+}
+.google-icon{
+    width: 25px;
+    height: 25px;
+    margin-right: 0.5rem;
+}
+.sign-text{
+    text-align: center;
+    padding: 0.5rem;
+}
+.sign-text a{
+    color: #8d7a7a;
+    text-underline-offset: 6px;
+}
+.sign-title h1{
+    margin-bottom: 1rem;
+}

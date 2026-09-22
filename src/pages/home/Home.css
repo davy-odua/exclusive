@@ -1,0 +1,77 @@
+.sidebar nav ul{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.4rem;
+}
+.sidebar li{
+    /* margin: 0 0 2.6rem 6.5rem; */
+    /* line-height: 3.7; */
+    margin-top: 2.5rem;
+    margin-left: 6.5rem;
+}
+.home-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-bottom: 2px solid black;
+}
+.home-container .left-1{
+    flex-basis: 20%;
+}
+.home-container .right-1{
+    flex-basis: 73%;
+    border-left: 1px solid #333;
+    padding-left: 3rem;
+}
+.home-container img{
+    width: 100%;
+    max-height: 70vh;
+    margin-top: 3.3rem;
+}
+
+/* Today */
+.today{
+    margin: 0 8.1rem;
+}
+.today-title{
+    border: 2px solid black;
+    width: 5rem;
+    max-height: 8rem;
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    margin-top: 3rem;
+}
+.sales{
+    margin: 1rem 0;
+    border: 2px solid black;
+    position: relative;
+    flex-direction: column;
+}
+.sales h2{
+    margin: 1.5rem;
+}
+.time{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+}
+.time-name{
+    position: absolute;
+    top: 1%;
+    left:  50%;
+}
+.arrow{
+    position: absolute;
+    top: 40%;
+    right: 0;
+}
+.arrow a{
+    font-weight: bold;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 10px;
+    background-color: #f1ebeb;
+}
