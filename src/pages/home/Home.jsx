@@ -1,6 +1,10 @@
 import './Home.css'
 import Sidebar from '../../components/Sidebar'
 import main from '../../../images/main.jpg'
+import pad from '../../../images/ps2.jpg'
+import laptop from '../../../images/laptop.jpg'
+import desktop from '../../../images/desktop.jpg'
+import chair from '../../../images/chair.jpg'
 
 function Home(){
     return(
@@ -27,6 +31,12 @@ function Home(){
                     <a>→</a>
                 </div>
             </div>
+        </div>
+        <div className="today-container">
+            <div className="today-img"> <img src={pad} alt="" /> </div>
+            <div className="today-img"> <img src={laptop} alt="" /> </div>
+            <div className="today-img"> <img src={desktop} alt="" /> </div>
+            <div className="today-img"> <img src={chair} alt="" /> </div>
         </div>
         </>
     )
