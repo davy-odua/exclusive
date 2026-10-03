@@ -9,7 +9,8 @@ import { FaRegHeart } from "react-icons/fa";
 import { FaStar } from "react-icons/fa";
 import { FaStarHalfAlt } from "react-icons/fa";
 import { FaRegStar } from "react-icons/fa";
-import Categories from '../../components/Categories'
+import Categories from '../../components/Categories';
+import Month from '../../components/Month';
 
 
 function Home(){
@@ -73,6 +74,7 @@ function Home(){
         </div>
         <hr />
         <Categories/>
+        <Month />
         </>
     )
 }

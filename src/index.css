@@ -91,10 +91,7 @@ input:focus {
   margin-left: 1rem;
   color: rgb(210, 33, 33);
 }
-.categories h1{
-  text-align: center;
-  margin: 1rem 0;
-}
+
 .arrow{
     position: absolute;
     top: 0;
@@ -110,7 +107,7 @@ input:focus {
 }
 .title-text{
   position: relative;
-  padding: 1rem;
+  padding: 2rem 0;
 }
 .image-categories{
   display: flex;
@@ -139,6 +136,21 @@ input:focus {
 }
 
 .phone-icon{
+  width: 100%;
+}
+
+
+/*  Month */
+.month-row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.month-col{
+  flex-basis: 23%;
+}
+.month-col img{
   width: 100%;
 }
 
