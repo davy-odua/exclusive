@@ -10,7 +10,9 @@ import { FaStar } from "react-icons/fa";
 import { FaStarHalfAlt } from "react-icons/fa";
 import { FaRegStar } from "react-icons/fa";
 import Categories from '../../components/Categories';
-import Month from '../../components/Month';
+import Title from '../../components/Title';
+import Month from '../../components/Month'
+
 
 
 function Home(){
@@ -24,18 +26,13 @@ function Home(){
                 <img src={main} />
             </div>
         </div>
-        <div className="today">
-            <div className="today-title">
-                <div className='todo-color'></div>
-                <h3>Today's</h3>
-            </div>
-            <div className="sales">
-                <h2>Flash Sales</h2>
-                <div className="time"> <h1>03  :  23  :  19  :  56</h1> </div>
-                <div className="time-name"> <h4>Days  Hours  Minutes  Seconds</h4> </div>
-                <div className="arrow">
-                    <a>←</a>
-                    <a>→</a>
+        <div className="today-1">
+            <div className="categories">
+                <Title name="Today's" header="Flash Sales" left = "←"  right = "→"  />
+                <div className="sales">
+                    <h2>Time:</h2>
+                    <div className="time"> <h1>03  :  23  :  19  :  56</h1> </div>
+                    <div className="time-name"> <h4>Days  Hours  Minutes  Seconds</h4> </div>
                 </div>
             </div>
         </div>

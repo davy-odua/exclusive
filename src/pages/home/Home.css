@@ -31,7 +31,7 @@
 
 /* Today */
 .today{
-    margin: 0 8.1rem;
+    margin: 3rem 8.1rem;
 }
 .today-title{
     border: 2px solid black;
@@ -106,7 +106,6 @@
     left: 2%;
 }
 .today-img .like{
-   
     border-radius: 50%;
     text-align: center;
     background-color: #fff;
@@ -117,8 +116,6 @@
 .like .like-icon{
     font-size: 20px;
     margin: 0.4rem 0.4rem 0 0.4rem;
-    
-    
 }
 .today-img h4{
     margin: 0.4rem 0;

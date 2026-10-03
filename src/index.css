@@ -154,3 +154,66 @@ input:focus {
   width: 100%;
 }
 
+.month-col{
+    flex-basis: 23.5%;
+    position: relative;
+    background-color: #eeebeb;
+    border-radius: 10px;
+    transition: 1s;
+}
+.month-col:hover{
+  transform: translateY(-10px);
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.3);
+}
+.month-col img{
+    width: 100%;
+    max-height: 12rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.goldish{
+    color: gold;
+}
+.month-col p{
+    font-size: 12px;
+    padding: 0.2rem 0.5rem;
+    background-color: rgb(210, 33, 33);
+    border: none;
+    border-radius: 8px;
+    position: absolute;
+    top: 5%;
+    left: 2%;
+}
+.month-col .like{
+    border-radius: 50%;
+    text-align: center;
+    background-color: #fff;
+    position: absolute;
+    top: 5%;
+    right: 2%;
+}
+.like .like-icon{
+    font-size: 20px;
+    margin: 0.4rem 0.4rem 0 0.4rem;
+}
+.month-col h4{
+    margin: 0.4rem 0;
+}
+.month-col a{
+    color: rgb(210, 69, 69);
+}
+.month-col a i{
+    color: #333;
+}
+.month-col .star{
+    margin: 0.4rem 0;
+}
+
+
+
+
+
+
+
+            
+
