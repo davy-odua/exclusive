@@ -11,7 +11,10 @@ import { FaStarHalfAlt } from "react-icons/fa";
 import { FaRegStar } from "react-icons/fa";
 import Categories from '../../components/Categories';
 import Title from '../../components/Title';
-import Month from '../../components/Month'
+import Month from '../../components/Month';
+import backgroundImg from '../../../images/main.jpg';
+import Products from '../../components/Products'
+
 
 
 
@@ -72,6 +75,10 @@ function Home(){
         <hr />
         <Categories/>
         <Month />
+        <div className='backgroundImg'>
+            <img src={backgroundImg} alt="" />
+        </div>
+        <Products />
         </>
     )
 }
