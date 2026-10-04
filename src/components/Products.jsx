@@ -47,6 +47,9 @@ function Products(){
                     <Label percentage="-25%" name="Small BookSelf" currentAmount = "$360"/>
                 </div>                
             </div>
+            <div className="products-btn">
+                <button>View All Products</button>
+            </div>
         </div>
         
         </>

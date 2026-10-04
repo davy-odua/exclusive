@@ -210,6 +210,17 @@ input:focus {
     margin: 0.4rem 0;
 }
 
+.products-btn{
+  text-align: center;
+}
+.products-btn button{
+  padding: 1rem;
+  font-size: 16px;
+  background-color: rgb(210, 33, 33);
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+}
 
 
 
