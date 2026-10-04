@@ -149,6 +149,7 @@ input:focus {
 }
 .month-col{
   flex-basis: 23%;
+  margin-bottom: 2rem;
 }
 .month-col img{
   width: 100%;
