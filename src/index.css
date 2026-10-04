@@ -222,6 +222,13 @@ input:focus {
   border-radius: 12px;
 }
 
+/* Featured */
+.featured{
+  margin: 3rem 8.1rem;
+}
+.featured .arrow{
+  display: none;
+}
 
 
 

@@ -13,7 +13,8 @@ import Categories from '../../components/Categories';
 import Title from '../../components/Title';
 import Month from '../../components/Month';
 import backgroundImg from '../../../images/main.jpg';
-import Products from '../../components/Products'
+import Products from '../../components/Products';
+import Featured from '../../components/Featured'
 
 
 
@@ -79,6 +80,7 @@ function Home(){
             <img src={backgroundImg} alt="" />
         </div>
         <Products />
+        <Featured />
         </>
     )
 }
