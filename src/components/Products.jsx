@@ -14,7 +14,7 @@ function Products(){
             <div className="month-row">
                 <div className="month-col">
                     <img src={phones3} alt="" />
-                    <Label percentage="-40%" name="The north coat" currentAmount = "$260" previousAmount = "$360" />
+                    <Label percentage="-30%" name="The north coat" currentAmount = "$260" previousAmount = "$360" />
                 </div>
                 <div className="month-col">
                     <img src={phones4} alt="" />
