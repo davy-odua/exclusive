@@ -221,6 +221,9 @@ input:focus {
   border: none;
   border-radius: 12px;
 }
+i{
+  text-decoration: line-through;
+}
 
 /* Featured */
 .featured{
