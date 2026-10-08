@@ -1,11 +1,13 @@
 import Title from "./Title";
 import '../index.css';
 import plays from '../../images/ps5-1.jpg';
-import desktop1 from '../../images/desktop1.jpg';
 import speakers from '../../images/speakers.jpg';
 import perfume from '../../images/perfume.jpg';
 import play from '../../images/ps5-2.jpg';
 import ColTitle from "./ColTitle";
+import { FaTruckFast } from "react-icons/fa6";
+import { FaHeadphonesAlt } from "react-icons/fa";
+import { RiShieldCheckFill } from "react-icons/ri";
 
 function Featured(){
     return(
@@ -33,17 +35,6 @@ function Featured(){
                         </div>
                     </div>
                 </div>                
-            </div>
-            <div className="customer">
-                <div className="customer-col">
-
-                </div>
-                <div className="customer-col">
-                    
-                </div>
-                <div className="customer-col">
-                    
-                </div>                                
             </div>
         </div>
         
