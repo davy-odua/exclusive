@@ -232,10 +232,33 @@ i{
 .featured .arrow{
   display: none;
 }
-
-
-
-
-
-            
+.featured-row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.featured-col{
+  flex-basis: 48%;
+}
+#perfume img{
+  height: 84.3vh;
+}
+.featured-col img{
+  width: 100%;
+}
+.feature-up{
+  margin-bottom: 2rem;
+}
+.feature-up img{
+  height: 43.5vh;
+}
+.feature-down{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}   
+.feature-down img{
+  width: 40vh;
+  height: 35vh;
+}        
 
