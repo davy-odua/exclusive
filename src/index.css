@@ -239,6 +239,7 @@ i{
 }
 .featured-col{
   flex-basis: 48%;
+  position: relative;
 }
 #perfume img{
   height: 84.3vh;
@@ -248,6 +249,7 @@ i{
 }
 .feature-up{
   margin-bottom: 2rem;
+  position: relative;
 }
 .feature-up img{
   height: 43.5vh;
@@ -259,6 +261,29 @@ i{
 }   
 .feature-down img{
   width: 40vh;
-  height: 35vh;
-}        
+  height: 36vh;
+}   
+.down{
+  position: relative;
+}     
+.col-title{
+  max-width: 16rem;
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+}
+.col-title h2{
+  color: #fff;
+}
+.col-title p{
+  margin: 0.7rem 0;
+  color: #b6b5b5;
+}
+.col-title button{
+  font-size: 17px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #636060;
+  color: #fff;
+}
 
