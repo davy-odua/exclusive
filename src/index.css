@@ -310,3 +310,71 @@ i{
   box-shadow: 0 0 15px 5px rgba(0, 0, 0, 1);
 }
 
+
+/* Footer */
+.footer{
+  width: 100%;
+  background: #000;
+}
+.footer-1{
+  margin: 0 8.1rem;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  padding-top: 3rem ;
+  position: relative;
+  border-bottom: 1px solid #979595;
+}
+.footer-col{
+  flex-basis: 19%;
+  padding: 1rem 0;
+}
+.footer-col p{
+  padding: 0.6rem 0;
+}
+.footer-col h2{
+  padding-bottom: 0.6rem;
+}
+.footer-col input{
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+.messager{
+  position: relative;
+}
+.sender{
+  position: absolute;
+  top: 50%;
+  right: 30%;
+}
+.google, .apple{
+  border: 0.5px solid #fff;
+  border-radius: 10px;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.googlePlay, .appleStore{
+  width: 3rem;
+  height: 3rem;
+}
+.social-icons{
+  display: flex;
+  justify-content: space-between;
+  padding-right: 2rem;
+}
+.social{
+  width: 2rem;
+  height: 2rem;
+}
+.copy-right{
+  color: #fff;
+  text-align: center;
+  margin-top: 3rem;
+  padding-bottom: 2rem;
+}

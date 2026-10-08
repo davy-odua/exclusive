@@ -14,9 +14,8 @@ import Title from '../../components/Title';
 import Month from '../../components/Month';
 import backgroundImg from '../../../images/main.jpg';
 import Products from '../../components/Products';
-import Featured from '../../components/Featured'
-
-
+import Featured from '../../components/Featured';
+import Footer from '../../components/Footer'
 
 
 function Home(){
@@ -81,6 +80,8 @@ function Home(){
         </div>
         <Products />
         <Featured />
+        <Footer />
+
         </>
     )
 }
