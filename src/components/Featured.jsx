@@ -5,9 +5,7 @@ import speakers from '../../images/speakers.jpg';
 import perfume from '../../images/perfume.jpg';
 import play from '../../images/ps5-2.jpg';
 import ColTitle from "./ColTitle";
-import { FaTruckFast } from "react-icons/fa6";
-import { FaHeadphonesAlt } from "react-icons/fa";
-import { RiShieldCheckFill } from "react-icons/ri";
+import Customer from "./Customer";
 
 function Featured(){
     return(
@@ -36,6 +34,7 @@ function Featured(){
                     </div>
                 </div>                
             </div>
+            <Customer />
         </div>
         
         </>
