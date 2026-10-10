@@ -13,7 +13,7 @@ function Login(){
                 <div className="sign-title">
                     <h1>Log in to Exclusive</h1>
                     <p>Enter your details below</p>
-               </div>
+                </div>
                 <form action="">
                     <div className='form-row'>
                         <input type="text" placeholder='Email or Phone Number' />
@@ -28,7 +28,6 @@ function Login(){
                 </form>
             </div>
         </div>
-        
         </>
     )
 }

@@ -17,7 +17,6 @@ import Products from '../../components/Products';
 import Featured from '../../components/Featured';
 import Footer from '../../components/Footer'
 
-
 function Home(){
     return(
         <>
