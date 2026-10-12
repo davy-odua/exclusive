@@ -371,6 +371,10 @@ i{
 .social{
   width: 2rem;
   height: 2rem;
+  transition: 0.5s;
+}
+.social:hover{
+  color: gold;
 }
 .copy-right{
   color: #fff;
