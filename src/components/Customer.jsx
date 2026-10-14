@@ -2,7 +2,6 @@ import { FaTruckFast } from "react-icons/fa6";
 import { FaHeadphonesAlt } from "react-icons/fa";
 import { RiShieldCheckFill } from "react-icons/ri";
 
-
 function Customer (){
     return(
         <>
