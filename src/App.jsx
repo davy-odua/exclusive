@@ -11,8 +11,8 @@ function App() {
     <>
     <TopFooter/>
     <Navbar/>
-    <SignUp/>
-    <Login/>
+    {/* <SignUp/> */}
+    {/* <Login/> */}
     <Home/>
     </>
   )
