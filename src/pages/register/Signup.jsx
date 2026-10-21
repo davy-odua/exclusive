@@ -2,7 +2,7 @@ import './Signup.css'
 import login from '../../../images/login.jpg'
 import { FcGoogle } from "react-icons/fc";
 
-function SignUp(){
+function Signup(){
     return(
         <>
         <div className="sign-container">
@@ -36,4 +36,4 @@ function SignUp(){
     )
 }
 
-export default SignUp;
+export default Signup;
