@@ -10,7 +10,8 @@ function App() {
     <TopFooter/>
     <Navbar/>
     {/* <SignUp/> */}
-    {/* <Login/> */}
+    <Login/>
+    {/* Login */}
     <Home/>
     {/* Hone */}
     </>
