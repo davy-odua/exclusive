@@ -11,7 +11,7 @@ function App() {
     <Navbar/>
     {/* <SignUp/> */}
     <Login/>
-
+    {/* Login */}
     <Home/>
     {/* Hone */}
     </>
