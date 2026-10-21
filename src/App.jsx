@@ -12,6 +12,7 @@ function App() {
     {/* <SignUp/> */}
     {/* <Login/> */}
     <Home/>
+    {/* App */}
     </>
   )
 }
